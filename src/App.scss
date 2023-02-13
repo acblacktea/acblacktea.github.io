@@ -1,6 +1,5 @@
 .App {
   display: flex;
-  background-color: #393c44; 
   height: 100vh;
   flex-direction: column;
   .Empty-Margin {
@@ -41,4 +40,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.description {
+  margin: 1px auto;
+  font-family: cursive;
+    /* color: seashell; */
+  background: linear-gradient(to right, purple, red, orange, yellow, green, yellow, red);
+   -webkit-background-clip: text;
+  font-size: x-large;
+  color: transparent;
 }
