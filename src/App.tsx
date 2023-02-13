@@ -71,7 +71,7 @@ function App() {
           <IconButton href='https://linkedin.com/in/yang-liu-aa91a6247' target="_blank" sx={{marginLeft: 5, marginRight: 5}}>
               <Avatar alt="linkedin" src={linkedin}/>
           </IconButton>
-          <IconButton href='https://github.com/acblacktea' target="_blank">
+          <IconButton href='https://twitter.com/blacktea1231' target="_blank">
               <Avatar alt="twitter" src={twitter} sx={{}}/>
           </IconButton>
       </div>
