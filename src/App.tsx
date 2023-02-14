@@ -15,6 +15,7 @@ import { margin } from '@mui/system';
 import { link } from 'fs';
 import { styled } from '@mui/material/styles';
 import Badge from '@mui/material/Badge';
+import Resume from './Resume';
 
 function App() {
   const SmallAvatar = styled(Avatar)(({ theme }) => ({
@@ -56,12 +57,12 @@ function App() {
         }}
       />
       </Badge>
-      <p style={{"marginLeft": "auto", "marginRight": "auto", "fontFamily": "cursive", "color": "cornsilk", "fontSize": "x-large"}}>{"Yang Liu (acblacktea)"}</p>
+      <p style={{"marginLeft": "auto", "marginRight": "auto", "fontFamily": "cursive", "color": "cornsilk", "fontSize": "x-large", "marginTop": "5px", "marginBottom":"1px"}}>{"Yang Liu (acblacktea)"}</p>
       <p style={{"marginLeft": "auto", "marginRight": "auto", "fontFamily": "cursive", "color": "aquamarine", "fontSize": "x-large", "marginTop": "1px", "marginBottom":"1px"}}>{"Backend Engineer & Full Stack Engineer"}</p>
       <p style={{"marginLeft": "auto", "marginRight": "auto", "fontFamily": "cursive", "color": "chartreuse", "fontSize": "x-large", "marginTop": "1px", "marginBottom":"1px"}}>{"acblacktea@outlook.com"}</p>
       <div style={{
         "display": "flex",
-        "paddingTop": "20px",
+        "paddingTop": "5px",
         "marginLeft": "auto",
         "marginRight": "auto",
         }} >
@@ -75,8 +76,8 @@ function App() {
               <Avatar alt="twitter" src={twitter} sx={{}}/>
           </IconButton>
       </div>
-      <p className="description">{"Working at Tiktok Singapore, Enjoying the beautiful world"}</p>
-      
+      <p className="description">{"Hi there :_)"}</p>
+      <Resume></Resume> 
     </div>
   );
 }

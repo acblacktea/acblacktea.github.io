@@ -1,0 +1,44 @@
+.Experience {
+    margin-bottom: 10px;
+    font-family: fantasy;
+    color: white;
+    font-weight: bolder;
+    margin-left: 'auto';
+    margin-right: 'auto';
+}
+
+.total {
+    margin: auto;
+}
+
+.Subtitle {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.label {
+    margin: 10px;
+    padding: 5px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;    
+    font-family: auto;
+}
+
+.label:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.labelGroup {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+ 

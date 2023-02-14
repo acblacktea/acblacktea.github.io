@@ -3,8 +3,9 @@
   height: 100vh;
   flex-direction: column;
   .Empty-Margin {
-    height: 100px
+    margin-top: 50px;
   }
+  overflow: auto;
 }
 
 .App-logo {
@@ -46,8 +47,9 @@
   margin: 1px auto;
   font-family: cursive;
     /* color: seashell; */
-  background: linear-gradient(to right, purple, red, orange, yellow, green, yellow, red);
+  background: linear-gradient(to right, red, blue, purple);
    -webkit-background-clip: text;
   font-size: x-large;
   color: transparent;
+  font-weight: bolder;
 }
