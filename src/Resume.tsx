@@ -95,7 +95,7 @@ function Resume() {
         {"Anuhui univeristy - 2014 ~ 2018"}
         <SubTitle></SubTitle>
         <div className="labelGroup">
-          <Label name="sleep/play compute games"/> 
+          <Label name="sleep/play computer games"/> 
           <Label name="c++"/> 
           <Label name="acm-icpc contest"/>
           <Label name="machine learning"/> 
